@@ -36,16 +36,20 @@ function App() {
     <button
       type="button"
       onClick={handleThemeSwitch}
-      className="fixed z-10 right-2 top-2 rounded-md bg-indigo-500 text-lg p-1 rounded-md"
+      className="fixed z-10 right-2 top-2 rounded-md bg-indigo-500 text-lg p-1"
     >
       {theme === 'dark' ? '🌙' : '🌝'}
     </button>
     <div className="font-noto bg-white dark:bg-slate-900">
       <div className="max-w-5xl mx-auto w-11/12">
       <HeroSection />
+      <hr />
       <Services />
+      <hr />
       <Works />
+      <hr />
       <About />
+      <hr />
       <Footer />
       </div>
     </div>
